@@ -1,7 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-// import { Layout } from "./components/Layout";
-// import { Missing } from "./components/Missing";
-import { Missing, Layout } from "./components/index";
+import { Layout } from "./components/index";
+import { Missing } from "./pages/index";
 import "./App.css";
 
 function App() {
