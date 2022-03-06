@@ -1,6 +1,6 @@
 import { Missing } from "./Missing/Missing";
-import { Home } from "./Home/Home";
 import { About } from "./About/About";
 import { MyProjects } from "./MyProjects/MyProjects";
+import { Skills } from "./Skills/Skills";
 
-export { Missing, Home, About, MyProjects };
+export { Missing, About, MyProjects, Skills };

@@ -1,5 +1,9 @@
 import "./About.css";
 
 export const About = () => {
-  return <h1>About Page</h1>;
+  return (
+    <div className="about" id="about">
+      <h1>About Page</h1>
+    </div>
+  );
 };
