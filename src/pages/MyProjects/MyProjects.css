@@ -1,5 +1,6 @@
 .myprojects {
   height: 100vh;
-  margin-top: 100px;
+  margin: 100px 100px 0 100px;
   scroll-margin-top: 100px;
+  border: 2px solid red;
 }
