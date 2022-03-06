@@ -4,12 +4,3 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
-a {
-  all: unset;
-}
-
-a:hover {
-  color: blueviolet;
-  cursor: pointer;
-}

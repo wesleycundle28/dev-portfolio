@@ -11,9 +11,19 @@
   width: 100vw;
 }
 
+a {
+  color: #fff;
+  all: unset;
+}
+
 a,
 a:visited {
   color: #fff;
+}
+
+a:hover {
+  color: blueviolet;
+  cursor: pointer;
 }
 
 .back-to-top {
