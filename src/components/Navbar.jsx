@@ -8,14 +8,12 @@ import {
   NavbarInnerContainer,
   NavbarLinkContainer,
   NavbarAnchor,
-  NavbarLink,
   Logo,
   OpenLinksButton,
-  NavbarLinkExtended,
   NavbarAnchorExtended,
 } from "../styles/Navbar.style";
 
-function Navbar() {
+export const Navbar = () => {
   const [extendNavbar, setExtendNavbar] = useState(false);
   const nav = () => {
     setExtendNavbar((curr) => !curr);
@@ -61,6 +59,6 @@ function Navbar() {
       )}
     </NavbarContainer>
   );
-}
+};
 
 export default Navbar;
