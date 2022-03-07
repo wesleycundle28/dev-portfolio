@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const NavbarContainer = styled.nav`
   width: 100vw;
   height: ${(props) => (props.extendNavbar ? "100vh" : "80px")};
-  background-color: black;
+  background-color: #282c34;
   display: flex;
   flex-direction: column;
   position: fixed;

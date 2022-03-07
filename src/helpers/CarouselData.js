@@ -1,11 +1,15 @@
-export const taskAppImages = [
+import app1Login from "../assets/Images/taskAppLogin.png";
+import app1Tasks from "../assets/Images/taskAppTasks.png";
+import app1Edit from "../assets/Images/taskAppEdit.png";
+
+export const Images = [
   {
-    image: require("../assets/Images/taskAppLogin"),
+    image: app1Login,
   },
   {
-    image: require("../assets/Images/taskAppTasks"),
+    image: app1Tasks,
   },
   {
-    image: require("../assets/Images/taskAppEdit"),
+    image: app1Edit,
   },
 ];
