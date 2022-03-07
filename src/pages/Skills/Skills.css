@@ -1,10 +1,25 @@
 .skills {
   height: 100vh;
-  margin: 100px 100px 0 100px;
+  width: 100vw;
   scroll-margin-top: 100px;
-  /* border: 2px solid red; */
+}
+
+.skills-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills-list {
   color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.skills-item {
+  margin: 10px;
+  padding: 10px;
 }

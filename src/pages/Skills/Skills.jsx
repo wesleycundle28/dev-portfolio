@@ -3,18 +3,20 @@ import "./Skills.css";
 export const Skills = () => {
   return (
     <div id="skills" className="skills">
-      <h1>Skills</h1>
-      <ul className="skills-list">
-        <li>JavaScript</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>React js</li>
-        <li>RTK Query</li>
-        <li>Node js</li>
-        <li>express</li>
-        <li>mongoose</li>
-        <li>mongoDB</li>
-      </ul>
+      <div className="skills-container">
+        <h1>Skills</h1>
+        <ul className="skills-list">
+          <li className="skills-item">JavaScript</li>
+          <li className="skills-item">HTML</li>
+          <li className="skills-item">CSS</li>
+          <li className="skills-item">React js</li>
+          <li className="skills-item">RTK Query</li>
+          <li className="skills-item">Node js</li>
+          <li className="skills-item">express</li>
+          <li className="skills-item">mongoose</li>
+          <li className="skills-item">mongoDB</li>
+        </ul>
+      </div>
     </div>
   );
 };

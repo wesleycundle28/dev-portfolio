@@ -5,20 +5,17 @@ export const MyProjects = () => {
   console.log(SliderData);
   return (
     <div className="myprojects" id="myprojects">
-      <h1>My Projects</h1>
+      <div className="myprojects-container">
+        <h1>My Projects</h1>
 
-      <div className="img-card">
-        {SliderData.map((data, index) => {
-          return <img className="img" src={data.image} alt="img" />;
-        })}
+        <a
+          href="https://mern-task-list-application.herokuapp.com/"
+          target={"_blank"}
+          rel={"noreferrer"}
+        >
+          Task Application
+        </a>
       </div>
-      <a
-        href="https://mern-task-list-application.herokuapp.com/"
-        target={"_blank"}
-        rel={"noreferrer"}
-      >
-        Task Application
-      </a>
     </div>
   );
 };

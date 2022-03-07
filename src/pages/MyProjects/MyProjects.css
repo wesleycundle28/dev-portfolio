@@ -1,21 +1,23 @@
 .myprojects {
   height: 100vh;
-  margin: 100px 100px 600px 100px;
+  width: 100vw;
   scroll-margin-top: 100px;
-  /* border: 2px solid red; */
 }
 
-.img-card {
-  border: 2px solid red;
+.myprojects-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .img-card {
   background-color: white;
   padding: 10px;
-  /* max-height: 400px;
-  max-width: 640px; */
 }
 
 .img {
-  border: 2px solid blue;
-  background-color: orange;
   max-width: 400px;
   max-height: 640px;
-}
+} */
