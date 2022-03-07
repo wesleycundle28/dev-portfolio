@@ -2,5 +2,9 @@
   height: 100vh;
   margin: 100px 100px 0 100px;
   scroll-margin-top: 100px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
+}
+
+.skills-list {
+  color: white;
 }
