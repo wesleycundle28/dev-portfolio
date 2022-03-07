@@ -1,8 +1,6 @@
 import "./MyProjects.css";
-import { SliderData } from "../../components/index";
 
 export const MyProjects = () => {
-  console.log(SliderData);
   return (
     <div className="myprojects" id="myprojects">
       <div className="myprojects-container">

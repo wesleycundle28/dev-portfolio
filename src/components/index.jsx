@@ -1,4 +1,5 @@
 import { Layout } from "./Layout/Layout";
-import { SliderData } from "./SliderData/SliderData";
+import { Footer } from "./Footer";
+import { Navbar } from "./Navbar";
 
-export { Layout, SliderData };
+export { Layout, Footer, Navbar };

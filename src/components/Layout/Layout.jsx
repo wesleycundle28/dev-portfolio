@@ -1,17 +1,13 @@
 import { Outlet } from "react-router-dom";
 import "./Layout.css";
-import { Navbar } from "../../components/Navbar";
+import { Navbar, Footer } from "../../components/index";
 
 export const Layout = () => {
   return (
     <main>
       <Navbar />
       <Outlet />
-      <footer className="back-to-top">
-        <a className="foot" href="#about">
-          Back To Top
-        </a>
-      </footer>
+      <Footer />
     </main>
   );
 };
