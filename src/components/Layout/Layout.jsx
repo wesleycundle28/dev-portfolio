@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import { About, MyProjects, Skills } from "../../pages/index";
 import "./Layout.css";
 
 export const Layout = () => {
@@ -25,9 +24,6 @@ export const Layout = () => {
           LinkedIn
         </a>
       </nav>
-      <About />
-      <Skills />
-      <MyProjects />
 
       <Outlet />
       <footer className="back-to-top">
