@@ -5,17 +5,25 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-size: x-large;
   width: 100vw;
+  margin-top: 100px;
   scroll-margin-top: 100px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .about {
-    margin-top: 100px;
+    font-size: large;
   }
 }
 
 .statement {
   color: white;
   margin: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .statement {
+    width: 60%;
+  }
 }
