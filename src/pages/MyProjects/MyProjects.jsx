@@ -11,6 +11,7 @@ export const MyProjects = () => {
       >
         Task Application
       </a>
+      <img src="" alt="Tasks Page" />
     </div>
   );
 };
