@@ -5,7 +5,7 @@ export const MyProjects = () => {
   console.log(SliderData);
   return (
     <div className="myprojects" id="myprojects">
-      <h1>My Projects Page</h1>
+      <h1>My Projects</h1>
 
       <div className="img-card">
         {SliderData.map((data, index) => {
