@@ -12,3 +12,7 @@ export const FooterBody = styled.footer`
   padding-top: 10px;
   width: 100vw;
 `;
+
+export const FooterAnchor = styled.a`
+  color: white;
+`;

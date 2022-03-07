@@ -1,10 +1,10 @@
-import { FooterBody } from "../styles/Footer.style";
+import { FooterBody, FooterAnchor } from "../styles/Footer.style";
 
 export const Footer = () => {
   return (
     <>
       <FooterBody>
-        <a href="#about">Back To Top</a>
+        <FooterAnchor href="#about">Back To Top</FooterAnchor>
       </FooterBody>
     </>
   );
