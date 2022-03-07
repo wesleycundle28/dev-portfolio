@@ -8,3 +8,18 @@ body {
   padding: 0;
   /* border: 2px solid red; */
 }
+
+a {
+  color: #fff;
+  all: unset;
+}
+
+a,
+a:visited {
+  color: #fff;
+}
+
+a:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
