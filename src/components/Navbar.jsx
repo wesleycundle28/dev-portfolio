@@ -60,5 +60,3 @@ export const Navbar = () => {
     </NavbarContainer>
   );
 };
-
-export default Navbar;
