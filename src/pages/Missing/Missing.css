@@ -1,4 +1,24 @@
-.pageNotFound {
+.missing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  font-size: xx-large;
+}
+
+@media screen and (max-width: 700px) {
+  .missing {
+    font-size: x-large;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .missing {
+    font-size: large;
+  }
+}
+
+.pageNotFound {
+  color: white;
   margin-top: 200px;
 }
