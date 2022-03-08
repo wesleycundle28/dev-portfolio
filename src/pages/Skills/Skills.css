@@ -40,7 +40,7 @@
 }
 
 .skills-item {
-  all: unset;
   margin: 10px;
   padding: 10px;
+  list-style-type: circle;
 }

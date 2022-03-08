@@ -1,15 +1,4 @@
 import "./Skills.css";
-// import { FaNode, FaReact } from "react-icons/fa";
-// import {
-//   SiRedux,
-//   SiExpress,
-//   SiCss3,
-//   SiHtml5,
-//   SiJavascript,
-//   SiMongodb,
-//   SiAzuredevops,
-//   SiCsharp,
-// } from "react-icons/si";
 
 export const Skills = () => {
   return (
@@ -25,16 +14,16 @@ export const Skills = () => {
           <li className="skills-item">RTK Query</li>
           <li className="skills-item">Node js</li>
           <li className="skills-item">Express js</li>
-          {/* <li className="skills-item"> Mongoose </li> */}
+          <li className="skills-item"> Mongoose </li>
           <li className="skills-item">MongoDB</li>
           {/* <li className="skills-item">
-            <DiMsqlServer /> SQL
+             SQL
           </li>
           <li className="skills-item">
-            <SiAzuredevops /> Azure devops
+             Azure devops
           </li>
           <li className="skills-item">
-            <SiCsharp /> C#
+             C#
           </li> */}
         </ul>
       </div>
