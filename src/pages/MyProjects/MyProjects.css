@@ -19,6 +19,12 @@
   font-size: 3vw;
 }
 
+@media screen and (max-width: 700px) {
+  .project-anchor {
+    font-size: 4vw;
+  }
+}
+
 .title {
   margin: 20px 20px 50px 20px;
 }
