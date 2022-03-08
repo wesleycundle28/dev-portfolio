@@ -28,6 +28,10 @@ export const CarouselLeft = styled.div`
   :hover {
     color: blueviolet;
   }
+
+  @media (max-width: 1000px) {
+    font-size: large;
+  }
 `;
 
 export const CarouselCenter = styled.div`
@@ -47,5 +51,9 @@ export const CarouselRight = styled.div`
 
   :hover {
     color: blueviolet;
+  }
+
+  @media (max-width: 1000px) {
+    font-size: large;
   }
 `;
