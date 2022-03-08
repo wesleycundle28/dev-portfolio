@@ -69,7 +69,11 @@ export const CarouselBottomLeft = styled.a`
   justify-content: center;
   align-items: center;
   flex: 1;
-  font-size: 6rem;
+  font-size: 7vw;
+
+  @media (max-width: 700px) {
+    font-size: 10vw;
+  }
 `;
 
 export const CarouselBottomRight = styled.a`
@@ -78,8 +82,12 @@ export const CarouselBottomRight = styled.a`
   align-items: center;
   flex: 1;
   /* font-family:; */
-  font-size: 2rem;
+  font-size: 2.5vw;
   font-weight: bold;
+
+  @media (max-width: 700px) {
+    font-size: 3.5vw;
+  }
 `;
 
 export const CarouselTitle = styled.div`
@@ -87,6 +95,10 @@ export const CarouselTitle = styled.div`
   justify-content: center;
   align-items: center;
   height: 5vw;
-  font-size: 2rem;
+  font-size: 3vw;
   width: 60%;
+
+  @media (max-width: 700px) {
+    font-size: 4vw;
+  }
 `;
