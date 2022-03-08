@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const CarouselContainer = styled.div`
   width: 60%;
   height: 37.5vw;
-  background-color: blueviolet;
   overflow: hidden;
 `;
 
