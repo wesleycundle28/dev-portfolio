@@ -9,11 +9,13 @@ import {
   CarouselBottom,
   CarouselBottomLeft,
   CarouselBottomRight,
+  CarouselTitle,
 } from "../styles/Carousel.style";
 
 export const Carousel = ({ git, url, app, decrease, increase }) => {
   return (
     <>
+      <CarouselTitle>Mern Stack Task App</CarouselTitle>
       <CarouselContainer>
         <CarouselInnerContainer style={{ backgroundImage: `url(${url})` }}>
           <CarouselLeft onClick={decrease}>

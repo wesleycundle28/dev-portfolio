@@ -88,3 +88,12 @@ export const CarouselBottomRight = styled.a`
     color: green;
   }
 `;
+
+export const CarouselTitle = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+  font-size: 2rem;
+  width: 60%;
+`;
