@@ -5,13 +5,11 @@ import {
   SiExpress,
   SiCss3,
   SiHtml5,
-  SiJava,
   SiJavascript,
   SiMongodb,
   SiAzuredevops,
   SiCsharp,
 } from "react-icons/si";
-import { DiJavascript, DiMsqlServer } from "react-icons/di";
 
 export const Skills = () => {
   return (
