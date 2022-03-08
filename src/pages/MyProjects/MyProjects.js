@@ -5,10 +5,11 @@ export const MyProjects = () => {
   return (
     <div className="myprojects" id="myprojects">
       <div className="myprojects-container">
-        <h1>My Projects</h1>
+        <h1 className="title">My Projects</h1>
         <Carousel />
 
         <a
+          className="project-anchor"
           href="https://mern-task-list-application.herokuapp.com/"
           target={"_blank"}
           rel={"noreferrer"}

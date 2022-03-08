@@ -14,12 +14,11 @@
   align-items: center;
 }
 
-/* .img-card {
-  background-color: white;
-  padding: 10px;
+.project-anchor {
+  margin: 20px;
+  font-size: xx-large;
 }
 
-.img {
-  max-width: 400px;
-  max-height: 640px;
-} */
+.title {
+  margin: 20px 20px 50px 20px;
+}

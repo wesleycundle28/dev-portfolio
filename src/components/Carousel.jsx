@@ -24,7 +24,7 @@ export const Carousel = () => {
           >
             <IoArrowUndo />
           </CarouselLeft>
-          <CarouselCenter></CarouselCenter>
+          <CarouselCenter />
           <CarouselRight
             onClick={() => {
               curr < Images.length - 1 && setCurr(curr + 1);
