@@ -26,6 +26,12 @@ export const About = () => {
           token authentication for user login.
         </p>
       </div>
+      <div className="statement">
+        <h3>Contact Me</h3>
+        <a href="wesley.adam.cundle@hotmail.com">
+          wesley.adam.cundle@hotmail.com
+        </a>
+      </div>
     </div>
   );
 };
