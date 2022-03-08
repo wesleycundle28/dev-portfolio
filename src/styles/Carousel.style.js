@@ -57,3 +57,34 @@ export const CarouselRight = styled.div`
     font-size: large;
   }
 `;
+
+export const CarouselBottom = styled.div`
+  display: flex;
+  height: 6.25vw;
+  width: 60%;
+`;
+
+export const CarouselBottomLeft = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-size: 6rem;
+
+  :hover {
+    color: green;
+  }
+`;
+
+export const CarouselBottomRight = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  /* font-family:; */
+  font-size: 2rem;
+  font-weight: bold;
+  :hover {
+    color: green;
+  }
+`;

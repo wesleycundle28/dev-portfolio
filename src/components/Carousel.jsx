@@ -1,39 +1,38 @@
-import { useState } from "react";
 import { IoArrowUndo, IoArrowRedo } from "react-icons/io5";
-import { Images } from "../helpers/CarouselData";
+import { GoLogoGithub } from "react-icons/go";
 import {
   CarouselContainer,
   CarouselInnerContainer,
   CarouselLeft,
   CarouselRight,
   CarouselCenter,
+  CarouselBottom,
+  CarouselBottomLeft,
+  CarouselBottomRight,
 } from "../styles/Carousel.style";
 
-export const Carousel = () => {
-  const [curr, setCurr] = useState(0);
+export const Carousel = ({ git, url, app, decrease, increase }) => {
   return (
     <>
       <CarouselContainer>
-        <CarouselInnerContainer
-          style={{ backgroundImage: `url(${Images[curr].image})` }}
-        >
-          <CarouselLeft
-            onClick={() => {
-              curr > 0 && setCurr(curr - 1);
-            }}
-          >
+        <CarouselInnerContainer style={{ backgroundImage: `url(${url})` }}>
+          <CarouselLeft onClick={decrease}>
             <IoArrowUndo />
           </CarouselLeft>
           <CarouselCenter />
-          <CarouselRight
-            onClick={() => {
-              curr < Images.length - 1 && setCurr(curr + 1);
-            }}
-          >
+          <CarouselRight onClick={increase}>
             <IoArrowRedo />
           </CarouselRight>
         </CarouselInnerContainer>
       </CarouselContainer>
+      <CarouselBottom>
+        <CarouselBottomLeft href={git}>
+          <GoLogoGithub />
+        </CarouselBottomLeft>
+        <CarouselBottomRight href={app} target={"_blank"} rel={"noreferrer"}>
+          Application
+        </CarouselBottomRight>
+      </CarouselBottom>
     </>
   );
 };
