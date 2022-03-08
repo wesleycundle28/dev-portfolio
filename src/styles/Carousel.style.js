@@ -70,10 +70,6 @@ export const CarouselBottomLeft = styled.a`
   align-items: center;
   flex: 1;
   font-size: 6rem;
-
-  :hover {
-    color: green;
-  }
 `;
 
 export const CarouselBottomRight = styled.a`
@@ -84,9 +80,6 @@ export const CarouselBottomRight = styled.a`
   /* font-family:; */
   font-size: 2rem;
   font-weight: bold;
-  :hover {
-    color: green;
-  }
 `;
 
 export const CarouselTitle = styled.div`
