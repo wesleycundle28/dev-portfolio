@@ -62,6 +62,10 @@ export const CarouselBottom = styled.div`
   display: flex;
   height: 6.25vw;
   width: 60%;
+
+  @media (max-width: 700px) {
+    margin: 1vw;
+  }
 `;
 
 export const CarouselBottomLeft = styled.a`
@@ -100,5 +104,6 @@ export const CarouselTitle = styled.div`
 
   @media (max-width: 700px) {
     font-size: 4vw;
+    margin-bottom: 2vw;
   }
 `;
