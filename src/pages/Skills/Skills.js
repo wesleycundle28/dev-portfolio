@@ -47,7 +47,7 @@ export const Skills = () => {
           <li className="skills-item">
             <SiMongodb /> MongoDB
           </li>
-          <li className="skills-item">
+          {/* <li className="skills-item">
             <DiMsqlServer /> SQL
           </li>
           <li className="skills-item">
@@ -55,7 +55,7 @@ export const Skills = () => {
           </li>
           <li className="skills-item">
             <SiCsharp /> C#
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>
