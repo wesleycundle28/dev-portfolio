@@ -26,6 +26,14 @@ export const SkillsListInnerContainer = styled.div`
   }
 `;
 
+export const SkillList = styled.div`
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+`;
+
 export const SkillListItem = styled.span`
   margin: 10px;
   padding: 10px;
