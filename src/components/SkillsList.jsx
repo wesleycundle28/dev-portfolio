@@ -1,5 +1,13 @@
-import { DiJavascript, DiCss3, DiHtml5, DiNodejsSmall } from "react-icons/di";
-import { SiExpress } from "react-icons/si";
+import {
+  DiJavascript,
+  DiCss3,
+  DiHtml5,
+  DiNodejsSmall,
+  DiReact,
+} from "react-icons/di";
+import { SiExpress, SiRedux, SiMongodb, SiAzuredevops } from "react-icons/si";
+import { RiCheckboxBlankCircleLine } from "react-icons/ri";
+import { BiRadioCircle } from "react-icons/bi";
 import {
   SkillList,
   SkillListItem,
@@ -24,18 +32,30 @@ export const SkillsList = () => {
           <SkillListItem>
             <DiJavascript /> JavaScript
           </SkillListItem>
-          <SkillListItem>React.js</SkillListItem>
-          <SkillListItem>Redux</SkillListItem>
-          <SkillListItem>RTK Query</SkillListItem>
           <SkillListItem>
-            <DiNodejsSmall /> Node.js
+            <DiReact /> React
           </SkillListItem>
           <SkillListItem>
-            <SiExpress /> Express.js
+            <SiRedux /> Redux
           </SkillListItem>
-          <SkillListItem>Mongoose</SkillListItem>
-          <SkillListItem>MongoDB</SkillListItem>
-          <SkillListItem>Azure DevOps</SkillListItem>
+          <SkillListItem>
+            <SiRedux /> RTK Query
+          </SkillListItem>
+          <SkillListItem>
+            <DiNodejsSmall /> Node
+          </SkillListItem>
+          <SkillListItem>
+            <SiExpress /> Express
+          </SkillListItem>
+          <SkillListItem>
+            <BiRadioCircle /> Mongoose
+          </SkillListItem>
+          <SkillListItem>
+            <SiMongodb /> MongoDB
+          </SkillListItem>
+          <SkillListItem>
+            <SiAzuredevops /> Azure DevOps
+          </SkillListItem>
           {/* <SkillListItem>SQL</SkillListItem>
         <SkillListItem>C#</SkillListItem> */}
         </SkillList>
