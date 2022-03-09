@@ -28,7 +28,7 @@ export const Carousel = ({ git, url, app, decrease, increase }) => {
         </CarouselInnerContainer>
       </CarouselContainer>
       <CarouselBottom>
-        <CarouselBottomLeft href={git}>
+        <CarouselBottomLeft href={git} target={"_blank"} rel={"noreferrer"}>
           <GoLogoGithub />
         </CarouselBottomLeft>
         <CarouselBottomRight href={app} target={"_blank"} rel={"noreferrer"}>
