@@ -4,6 +4,11 @@ export const CarouselContainer = styled.div`
   width: 60%;
   height: 37.5vw;
   overflow: hidden;
+
+  @media (max-width: 700px) {
+    width: 80%;
+    height: 50vw;
+  }
 `;
 
 export const CarouselInnerContainer = styled.div`
