@@ -6,7 +6,6 @@ import {
   DiReact,
 } from "react-icons/di";
 import { SiExpress, SiRedux, SiMongodb, SiAzuredevops } from "react-icons/si";
-import { RiCheckboxBlankCircleLine } from "react-icons/ri";
 import { BiRadioCircle } from "react-icons/bi";
 import {
   SkillList,
