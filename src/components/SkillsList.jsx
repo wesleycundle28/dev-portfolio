@@ -1,5 +1,5 @@
-import { DiJavascript, DiCss3, DiHtml5 } from "react-icons/di";
-
+import { DiJavascript, DiCss3, DiHtml5, DiNodejsSmall } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
 import {
   SkillList,
   SkillListItem,
@@ -27,8 +27,12 @@ export const SkillsList = () => {
           <SkillListItem>React.js</SkillListItem>
           <SkillListItem>Redux</SkillListItem>
           <SkillListItem>RTK Query</SkillListItem>
-          <SkillListItem>Node.js</SkillListItem>
-          <SkillListItem>Express.js</SkillListItem>
+          <SkillListItem>
+            <DiNodejsSmall /> Node.js
+          </SkillListItem>
+          <SkillListItem>
+            <SiExpress /> Express.js
+          </SkillListItem>
           <SkillListItem>Mongoose</SkillListItem>
           <SkillListItem>MongoDB</SkillListItem>
           <SkillListItem>Azure DevOps</SkillListItem>
