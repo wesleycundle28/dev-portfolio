@@ -31,6 +31,7 @@ export const SkillList = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
 `;
 
