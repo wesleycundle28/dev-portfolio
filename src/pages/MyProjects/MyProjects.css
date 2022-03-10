@@ -14,6 +14,11 @@
   font-size: x-large;
   align-items: center;
 }
+@media only screen and (max-width: 1200px) {
+  .myprojects-container {
+    font-size: large;
+  }
+}
 
 .project-anchor {
   margin: 20px;
