@@ -1,6 +1,6 @@
-import app1Login from "../assets/Images/taskAppLogin.png";
-import app1Tasks from "../assets/Images/taskAppTasks.png";
-import app1Edit from "../assets/Images/taskAppEdit.png";
+import app1Login from "../assets/Images/taskAppLogin.sprite.png";
+import app1Tasks from "../assets/Images/taskAppTasks.sprite.png";
+import app1Edit from "../assets/Images/taskAppEdit.sprite.png";
 
 export const Images = [
   {
