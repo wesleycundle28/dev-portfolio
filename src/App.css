@@ -1,9 +1,10 @@
 body {
+  background-color: blueviolet;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./assets/Images/abstractPurple.sprite.png");
+  /* background-image: url("./assets/Images/abstractPurple.sprite.png"); */
   display: flex;
   flex-direction: column;
   align-items: stretch;
