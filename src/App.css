@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("./assets/Images/abstractPurple.jpeg");
+  background-image: url("./assets/Images/abstractPurple-2880x1800.jpeg");
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -16,7 +16,7 @@ body {
 
 @media (max-width: 700px) {
   body {
-    background-repeat: repeat-y;
+    background-image: url("./assets/Images/abstractPurple-700x437.5.jpeg");
   }
 }
 
