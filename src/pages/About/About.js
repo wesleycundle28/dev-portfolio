@@ -24,9 +24,9 @@ export const About = () => {
           token authentication for user login.
         </p>
         <h3 className="contact-me">Contact Me</h3>
-        <a href="mailto: wesley.adam.cundle@hotmail.com">
+        {/* <a href="mailto: wesley.adam.cundle@hotmail.com">
           wesley.adam.cundle@hotmail.com
-        </a>
+        </a> */}
       </div>
     </div>
   );

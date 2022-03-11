@@ -4,14 +4,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
   font-size: x-large;
-  /* width: 100vw; */
   margin: 100px 0 100px 0;
   scroll-margin-top: 100px;
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .about {
     font-size: large;
   }
@@ -22,7 +20,7 @@
   margin: 20px;
 }
 
-@media only screen and (min-width: 700px) {
+@media (min-width: 700px) {
   .statement {
     width: 60%;
   }
