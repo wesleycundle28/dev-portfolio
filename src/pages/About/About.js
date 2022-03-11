@@ -1,4 +1,5 @@
 import "./About.css";
+import { Anchor } from "../../components/index";
 
 export const About = () => {
   return (
@@ -23,10 +24,11 @@ export const About = () => {
           MERN stack applications. This application also has a simple json web
           token authentication for user login.
         </p>
-        <h3 className="contact-me">Contact Me</h3>
-        {/* <a href="mailto: wesley.adam.cundle@hotmail.com">
-          wesley.adam.cundle@hotmail.com
-        </a> */}
+        <h3>Contact Me</h3>
+        <Anchor
+          href="mailto: wesley.adam.cundle@hotmail.com"
+          Children="wesley.adam.cundle@hotmail.com"
+        />
       </div>
     </div>
   );
