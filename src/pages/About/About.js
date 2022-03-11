@@ -16,8 +16,6 @@ export const About = () => {
           have experience developing back end code using Node js and express
           with a mongo database.
         </p>
-      </div>
-      <div className="statement">
         <h3>Projects</h3>
         <p>
           Below you will see my projects that I have developed. My very first
@@ -25,9 +23,7 @@ export const About = () => {
           MERN stack applications. This application also has a simple json web
           token authentication for user login.
         </p>
-      </div>
-      <div className="statement">
-        <h3>Contact Me</h3>
+        <h3 className="contact-me">Contact Me</h3>
         <a href="mailto: wesley.adam.cundle@hotmail.com">
           wesley.adam.cundle@hotmail.com
         </a>
