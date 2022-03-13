@@ -12,11 +12,21 @@ body {
   padding: 0;
 }
 
-/* @media (max-width: 700px) {
+@media (max-width: 700px) {
   body {
-    background-image: url("./assets/Images/abstractPurple-700x437.5.jpeg");
+    background: #41295a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      #2f0743,
+      #41295a
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #2f0743,
+      #41295a
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-} */
+}
 
 a {
   color: #fff;
