@@ -1,7 +1,8 @@
 body {
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   background-image: url("./assets/Images/abstractPurple-2880x1800.jpeg");
   display: flex;
   flex-direction: column;
