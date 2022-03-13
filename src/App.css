@@ -1,5 +1,6 @@
 body {
   background-size: cover;
+  background-repeat: no-repeat;
   background: url("./assets/Images/abstractPurple-2880x1800.jpeg") fixed center
     80%;
   display: flex;
